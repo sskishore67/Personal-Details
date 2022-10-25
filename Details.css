@@ -1,0 +1,62 @@
+body
+{
+  background-image: url("section-1_cleanup.png");
+  background-repeat:no-repeat;
+  background-size: 100% 1000px;
+ opacity: 0.9;
+  }
+.logo
+{
+position: absolute;
+top: 50px;
+left: 625px;
+z-index:1;
+width: 100px;
+height: 100px;
+border-radius: 150px;
+background-color: rgb(219, 212, 212);
+
+ 
+}
+::placeholder
+{
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+form
+{
+  position: absolute;
+  left: 380px;
+padding-top: 200px;
+  background-color: white ;
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+  
+}
+input[type="text"],input[type="date"],input[type="number"],input[type="phone"],input[type="email"]
+{
+  width: 200px;
+  height: 25px;
+  border-radius:5px;
+  
+}
+input[type="submit"]
+{
+  width:100px;
+  height: 25px;
+  transition: 1s;
+}
+input[type="submit"]:hover
+{
+  background-color: rgb(219, 212, 212);
+}
+select{
+  width: 210px;
+  height: 28px;
+  border-radius:5px;
+}
+
+
+
